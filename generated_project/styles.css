@@ -1,0 +1,51 @@
+/* Global Styles */
+
+/* Typography */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Colors */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Component Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+/* CSS Classes for components */
+.component-class {
+  background-color: #fff;
+  padding: 1em;
+  border: 1px solid #ddd;
+  margin-bottom: 1em;
+}
